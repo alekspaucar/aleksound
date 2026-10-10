@@ -1,0 +1,53 @@
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+
+# IDEs and local settings
+.idea/
+.vscode/
+*.iml
+*.log
+
+# Apple / Android generated files
+ios/Pods/
+ios/.symlinks/
+android/.gradle/
+android/local.properties
+
+# Secrets and signing material
+*.jks
+*.keystore
+*.p12
+*.mobileprovision
+*.pem
+.env
+.env.*
+!.env.example
+
+# AI assistant instructions and local agent state
+.claude/
+.codex/
+.cursor/
+.gemini/
+.agents/
+CLAUDE.md
+CLAUDE.local.md
+CODEX.md
+AGENTS.md
+GEMINI.md
+copilot-instructions.md
+**/CLAUDE.md
+**/CLAUDE.local.md
+**/CODEX.md
+**/AGENTS.md
+**/GEMINI.md
+.github/copilot-instructions.md
+*.code-workspace
+.worktrees/
+
+# OS files
+.DS_Store
+Thumbs.db

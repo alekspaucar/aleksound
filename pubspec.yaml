@@ -1,0 +1,32 @@
+name: aleksound
+description: Reproductor musical offline personal, multiplataforma y de diseño premium.
+publish_to: "none"
+version: 0.6.3+9
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  just_audio: ^0.10.6
+  shared_preferences: ^2.5.3
+  youtube_player_iframe: ^6.0.2
+  http: ^1.6.0
+  url_launcher: ^6.3.2
+  youtube_explode_dart: 3.1.0
+  audio_session: ^0.2.4
+
+dev_dependencies:
+  integration_test:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  shared_preferences_platform_interface: ^2.4.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/
